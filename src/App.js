@@ -13,6 +13,7 @@ import 'react-toastify/dist/ReactToastify.css';
 function App() {
   const notifySuccess = (msg) => toast.success(msg);
   const notifyError = (msg) => toast.error(msg);
+  
   const [token, setToken] = useState("");
   const [notes, setnotes] = useState([])
 
